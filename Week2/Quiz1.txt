@@ -1,0 +1,75 @@
+ Typing "pwd" causes what to happen? 
+Prints Working Directory
+
+ Typing "cd" causes what to happen? 
+It causes you to change directory
+
+ The "cd" command (then hit return) followed by the "pwd" command does what? 
+It will go home directory
+
+ Typing "cd" (then hit return) followed by "cd .." causes what to happen? 
+it will go back one folder from your home directory
+
+ The commands "cd" followed by "mkdir stuff" are run, what happens? 
+it creates a "stuff" directory in home directory
+
+ The commands "cd" followed by "mkdir ../stuff" are run, what happens? Why? 
+it attempts to create a "stuff" directory in one directory back from home directory, since its the users directory we dont have permission
+
+ I am in my home directory and I type: cd bin - What directory am I in now? 
+in the directory bin in my users
+
+ I am in my home directory and I type: cd /bin - What directory am I in now? 
+in the directory absoute bin directory
+
+ I am in my home directory and I type: cd ../bin - What happens? Why? 
+It will give me an error since there is no bin folder.
+
+ Typing "cd /" causes what to happen? 
+it goes to the absolute directory
+
+ Typing "cd /" followed by "cd .." causes what to happen? 
+it will return an error as there is no place to go back to
+
+ The commands "cd /" followed by "mkdir stuff" are run, what happens? 
+it will attempt to create a directory in the absolute path
+
+ Typing "cd \" causes what to happen? 
+it prompts for a direction to cd into
+
+ What is the directory /bin for? 
+In this there is programs 
+
+ How do you list the files in /bin? 
+you would use ls -la to see hidden files
+
+ EXTRA QUESTION (only for experienced Linux people): Write a one-line command line to count the number of files in /bin 
+ls -a -l
+
+ The command ls -l does what? 
+Show non hidden files and folder
+
+ The command ls -a does what? 
+Show all files and folder
+
+ The command ls -al does what? 
+Show all files and directories as a list
+
+ The command ls -R does what? 
+list subdirectories recursively
+
+ On Windows command line, by typing in cd \ what happens? 
+it goes to main drive
+
+ On Windows command line, by typing in cd / what happens? 
+it goes to main drive
+
+ On Windows, C:\ is the equivalent of what on UNIX/Linux? 
+root directory
+
+ On Windows, C:\Users\me is the equivalent of what on UNIX/Linux? 
+/users/ca1/me
+
+ On Windows, C:\Windows\System32 is the equivalent of what on UNIX/Linux? 
+/bin
+
